@@ -35,10 +35,29 @@ nav {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    transition-duration: 0.5s;
+}
+.nav-links ul li:hover {
+    cursor: pointer;
 }
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
+}
+.nav-links ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: none;
+}
+.nav-links ul li ul li {
+    display: block;
+}
+.nav-links ul li:hover > ul,
+.nav-links ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
 .info {
@@ -125,4 +144,8 @@ nav {
 }
 .detail img {
     width: 300px;
+}
+
+.market-icons img {
+    width: 150px;
 }

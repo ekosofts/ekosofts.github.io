@@ -6,7 +6,8 @@ let rotatePosition;
 let details = [
     {id: 1, text: "Aga Bala", img: "images/agabala_detail.png", appstore: "https://apps.apple.com/us/app/aga-bala/id1548189656", googleplay: "https://play.google.com/store/apps/details?id=com.EKOGames.AgaBala"},
     {id: 2, text: "Easy Useful Wallet", img: "images/mywallet_detail.png", appstore: "https://apps.apple.com/az/app/easy-useful-wallet/id1548000262", googleplay: "https://play.google.com/store/apps/developer?id=Elkhan+Mursali"},
-    {id: 3, text: "Space War", img: "images/spacewar_detail.png", appstore: "https://apps.apple.com/us/app/space-war-6/id1561462670", googleplay: "https://play.google.com/store/apps/details?id=com.EKOGames.SpaceWar"}
+    {id: 3, text: "Space War", img: "images/spacewar_detail.png", appstore: "https://apps.apple.com/us/app/space-war-6/id1561462670", googleplay: "https://play.google.com/store/apps/details?id=com.EKOGames.SpaceWar"},
+    {id: 4, text: "Drive Me Nuts", img: "images/drivemenuts_detail.png", appstore: "https://play.google.com/store/apps/details?id=com.EKOGames.DriveMeNuts", googleplay: "https://play.google.com/store/apps/details?id=com.EKOGames.DriveMeNuts"}
 ]
 let currentId = 1;
 let detailText = document.getElementById('appHeader');
